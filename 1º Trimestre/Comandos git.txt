@@ -12,3 +12,6 @@ Registrar as mudanças (nova versão)
 
 Enviar código para repositório na Internet
 - git push origin master
+
+site pra verificar código html:
+https://validator.w3.org/#validate_by_input
