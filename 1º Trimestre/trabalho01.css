@@ -1,14 +1,37 @@
 
-body {
+* {
 
 }
+
 #curriculo {
-  
+background-color: #EEEEEE ;
+/* Define a largura de um elemento/tag */
+width: 800px;
+margin: 0px auto;
+padding: 40px;
 }
+
 .titulo {
   font-size: 12px;
   float: left;
+  font-weight: normal;
 }
-.lista {
+
+.dados-pessoais {
   float:right;
+  text-align: right;
+}
+
+.limpar-float {
+clear: both;
+}
+.negrito {
+font-weight: bold;
+}
+.titulo p {
+font-size: 20px;
+}
+
+.titulo h1 {
+font-size: 35px; 
 }
