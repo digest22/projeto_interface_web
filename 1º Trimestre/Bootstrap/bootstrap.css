@@ -6594,7 +6594,9 @@ button.bg-dark:focus {
 .bg-transparent {
   background-color: transparent !important;
 }
-
+.bg-black {
+  background-color: #000000 !important;
+}
 .border {
   border: 1px solid #dee2e6 !important;
 }
