@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Introdução ao jQuery JavaScript</title>
+    <!-- Importação do CSS Bootstrap -->
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+
+    <!-- Importação do jQuery -->
+    <script src="JS/jquery-3.4.1.js" ></script>
+
+    <!-- Utilização do JavaScript, jquery -->
+    <script>
+      // Aqui vai todo o código JS
+      $(document).ready( function(){
+
+        $("#btnEsconder").click(function(){
+
+          $("p").hide();
+        });
+        $("#btnMostrar").click(function() {
+          $("p").show();
+
+        });
+        $("#btnEsconderpp").click(function() {
+          $("#1").hide();
+        });
+
+        $("#btnDadosP").click(function() {
+          $(".dados-pessoais").show();
+          $(".dados-acadêmcios").hide();
+          $(".dados-contato").hide();
+        });
+
+        $("#btnDadosA").click(function() {
+          $(".dados-pessoais").hide();
+          $(".dados-acadêmcios").show();
+          $(".dados-contato").hide();
+        });
+
+        $("#btnDadosC").click(function() {
+          $(".dados-pessoais").hide();
+          $(".dados-acadêmcios").hide();
+          $(".dados-contato").show();
+        });
+
+      });
+
+    </script>
+
+  </head>
+  <body>
+    <div class="container">
+      <h2>Introdução ao jQuery</h2>
+
+      <p id="1">Danilo Pereira Igreja</p>
+      <p id="2">Texto é um conjunto de palavras e frases encadeadas que permitem interpretação e transmitem uma mensagem.</p>
+      <p id="3">História é a ciência que estuda os acontecimentos passados e a ação do homem no tempo.</p>
+
+      <button type="button" class="btn btn-primary" id="btnEsconder">
+        Esconder
+      </button>
+
+      <button type="button" class="btn btn-primary" id="btnMostrar">
+        Mostrar
+      </button>
+
+      <button type="button" class="btn btn-primary" id="btnEsconderpp">
+        Esconderpp
+      </button>
+
+      <hr>
+
+      <h2>Exemplo com Abas</h2>
+      <button type="button" class="btn btn-secondary" id="btnDadosP">
+       Dados pessoais
+      </button>
+      <button type="button" class="btn btn-secondary" id="btnDadosA">
+        Dados Acadêmcios
+      </button>
+      <button type="button" class="btn btn-secondary" id="btnDadosC">
+        Dados de Contato
+      </button>
+    </div>
+    <div class="dados-pessoais" style="display : none;">
+      <p>Rua Amador Aguiar. N: 471</p>
+      <p>Tel.: 98224-1005</p>
+      <p>Email: Daniloficha99@gmail.com</p>
+    </div>
+
+    <div class="dados-acadêmcios" style="display : none;">
+      <p>IFPR-Campus Paranavaí</p>
+      <p>Cursando Técnico em Informática Integrado ao Ensino Médio</p>
+      <p>Aluno: Danilo Pereira Igreja. R.A:2015318253</p>
+      <p>Duração de 4 anos</p>
+    </div>
+
+  <div class="dados-contato" style="display : none;">
+    <p>Tel.: 98224-1005</p>
+    <p>Email: Daniloficha99@gmail.com</p>
+
+  </div>
+  </body>
+</html>
