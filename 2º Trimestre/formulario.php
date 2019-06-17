@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Formulários em HTML</title>
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
   </head>
   <body>
 
