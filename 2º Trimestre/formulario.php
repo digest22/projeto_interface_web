@@ -28,7 +28,9 @@
           <form action="formularioControle.php" method="post" id="formulario">
 
             <!-- label serve apenas de etiqueta para o campo -->
+
             <label>Login:</label><br>
+            
             <!-- Todo input tem que ter um type (tipo) e um name (identificação)
             O name é a identificação do campo lá no action deste formulário -->
             <input type="text" name="login" value="" class="form-control obrigatorio">
